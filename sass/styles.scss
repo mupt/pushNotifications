@@ -1,0 +1,39 @@
+body .wl-page-wrap {
+	width: auto;
+	background: white;
+}
+
+.decor { 
+	padding-top: 1px;
+	background: url('http://dev-us.freepeople.com/resources/_shared/images/backgrounds/border-50.png');
+	.decor-1 { 
+		padding: 50px;
+		background: #f6f4f2;}
+}
+
+body {
+	.fpme-section-body { min-width: 580px;}
+	.wl-product-fpme { 
+		margin-bottom: 50px;
+		.fpme-section-pics { margin: 0px 50px;}
+		.wl-pager--fpme { min-width: 500px; }
+
+	}
+
+	.wl-product-fpme .fpme-section-pics { margin: 0px 50px;}
+	.wl-product-fpme .body-inner  { 
+		width: 100%; 
+	}
+	
+	.wl-product-fpme .fpme-section-body .fpme-preview-section { width: inherit;}
+	.wl-application-footer { 
+	margin: 0 auto;
+	width: 370px;
+	background: url('http://dev-us.freepeople.com/resources/_shared/images/backgrounds/border-50.png');
+	.content {
+		margin: 1px;
+		background: white;}
+	}
+}
+
+

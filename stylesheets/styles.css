@@ -1,0 +1,56 @@
+/* line 1, ../sass/styles.scss */
+body .wl-page-wrap {
+  width: auto;
+  background: white;
+}
+
+/* line 6, ../sass/styles.scss */
+.decor {
+  padding-top: 1px;
+  background: url("http://dev-us.freepeople.com/resources/_shared/images/backgrounds/border-50.png");
+}
+/* line 9, ../sass/styles.scss */
+.decor .decor-1 {
+  padding: 50px;
+  background: #f6f4f2;
+}
+
+/* line 15, ../sass/styles.scss */
+body .fpme-section-body {
+  min-width: 580px;
+}
+/* line 16, ../sass/styles.scss */
+body .wl-product-fpme {
+  margin-bottom: 50px;
+}
+/* line 18, ../sass/styles.scss */
+body .wl-product-fpme .fpme-section-pics {
+  margin: 0px 50px;
+}
+/* line 19, ../sass/styles.scss */
+body .wl-product-fpme .wl-pager--fpme {
+  min-width: 500px;
+}
+/* line 23, ../sass/styles.scss */
+body .wl-product-fpme .fpme-section-pics {
+  margin: 0px 50px;
+}
+/* line 24, ../sass/styles.scss */
+body .wl-product-fpme .body-inner {
+  width: 100%;
+}
+/* line 28, ../sass/styles.scss */
+body .wl-product-fpme .fpme-section-body .fpme-preview-section {
+  width: inherit;
+}
+/* line 29, ../sass/styles.scss */
+body .wl-application-footer {
+  margin: 0 auto;
+  width: 370px;
+  background: url("http://dev-us.freepeople.com/resources/_shared/images/backgrounds/border-50.png");
+}
+/* line 33, ../sass/styles.scss */
+body .wl-application-footer .content {
+  margin: 1px;
+  background: white;
+}

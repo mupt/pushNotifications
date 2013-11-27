@@ -1,0 +1,114 @@
+.wl-dialog--ht .ui-widget-overlay, .wl-dialog--full .ui-widget-overlay {
+  height: auto;
+  position: static;
+}
+
+.wl-media { padding: 10px ;}
+
+.wl-dialog.wl-dialog--ht--fpme {
+  position: relative;
+  padding: 0px 0px 110px 0px;
+}
+
+.wl-product-preview--quickview {
+  width: auto;
+}
+
+.wl-product-preview--quickview .wl-media .object {
+  width: 53%;
+}
+
+.wl-product-preview--quickview .wl-media .body {
+  width: 47%;
+}
+
+  .wl-product-preview--quickview .wl-media .object {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .wl-product-preview--quickview .wl-media .body {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+@media only screen 
+and (max-width : 960px) {
+  .wl-product-preview--quickview .wl-media .object {
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .wl-product-preview--quickview .wl-media .body {
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+  }
+  
+  .wl-product-details .product-pager li {
+    float: none;
+    margin: 0;
+  }
+  
+  .wl-product-preview--quickview .wl-product-details {
+    padding: 0;
+  }
+  
+  .wl-product-details .product-pager .details-link { display: none;}
+  
+  .wl-product-preview--quickview .media .img-options {
+    max-height: 313px;
+    overflow: scroll;
+  }
+  
+  .wl-product-preview--quickview .media .img-options {
+    top: -2px;
+    right: -2px;
+    width: 58px;
+  }
+  
+  .wl-product-preview--quickview .media .img-options .option {
+    margin: 2px;
+  }
+  
+  .wl-product-details {
+    width: auto;
+  }
+  
+  .wl-product-details .form {
+    margin-top: 20px;
+  }
+  
+  .wl-product-details .description {
+    height: auto !important;
+    padding: 0;
+    background: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    visibility: visible;
+    position: static;
+    opacity: 1;
+  }
+  
+  .wl-product-details .description .content {
+    padding: 0;
+    width: 100%;
+  }
+  
+  .wl-product-details .description .overlay--metadata  {
+    margin-top: 20px;
+    position: static;
+    width: auto;
+  }
+  
+  .wl-product-details .description .description-body {
+    padding: 0;
+  }
+  
+  .wl-product-details .description .overlay {
+    width: auto;
+    position: static;
+  }
+}
